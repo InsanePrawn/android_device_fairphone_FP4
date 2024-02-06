@@ -6,6 +6,7 @@ import /init.recovery.qcom_decrypt.rc
 on init
     setprop sys.usb.configfs 1
     setprop prepdecrypt.loglevel 2
+    setprop prepdecrypt.setpatch true
 
 
 on fs
